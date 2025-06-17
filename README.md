@@ -1,9 +1,5 @@
 # Musicify
-🎵 A simple web music player using vanilla JavaScript and HTML5 Audio
-
-# Musicify 🎶
-
-A minimalistic web-based music player built with JavaScript, HTML, and CSS.
+🎵 A minimalistic web-based music player built with JavaScript, HTML, and CSS.
 
 ## Features
 - Play/Pause music
@@ -15,3 +11,17 @@ A minimalistic web-based music player built with JavaScript, HTML, and CSS.
 - HTML5
 - CSS3
 - JavaScript (vanilla)
+
+## How to Clone This Repository
+
+Follow these steps to get a local copy up and running:
+
+```bash
+# 1. Open your terminal and run:
+git clone https://github.com/sapyyy/Musicify.git
+
+# 2. Go into the project directory:
+cd Musicify
+
+# 3. Open the index.html file in your browser
+# (you can just double-click it or use Live Server if you have VS Code)
