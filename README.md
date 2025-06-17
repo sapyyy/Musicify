@@ -1,16 +1,27 @@
 # Musicify
+
 🎵 A minimalistic web-based music player built with JavaScript, HTML, and CSS.
 
+# Hosted Link
+
+Link : https://musicify-by-sapyyy.netlify.app/
+
 ## Features
+
 - Play/Pause music
 - Next/Previous track
 - Custom audio controls
 - Responsive design
 
 ## Tech Stack
+
 - HTML5
 - CSS3
 - JavaScript (vanilla)
+
+# Bugs (if any)
+
+- when playing a song, if you change the song then you need to click the play button twice to play the new song
 
 ## How to Clone This Repository
 
@@ -25,3 +36,4 @@ cd Musicify
 
 # 3. Open the index.html file in your browser
 # (you can just double-click it or use Live Server if you have VS Code)
+```
