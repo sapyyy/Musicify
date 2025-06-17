@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link rel="icon" href="images/appleFavicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/0e7052d60e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="title">
+      <h1>Musicify</h1>
+      <p>a normal music player with custom controls</p>
+    </div>
+    <section class="audioBox">
+      <audio class="box">
+        <source src="songs/Wildflower.mp3" type="audio/mp3" />
+      </audio>
+
+      <div class="musicPlayer">
+        <div class="songInfo">
+          <div class="cover">
+            <img src="images/appleIcon.png" alt="coverImage" />
+          </div>
+          <div class="text">
+            <h1 class="song">Song Name</h1>
+            <h4 class="artist">Artist Name</h4>
+          </div>
+        </div>
+
+        <div>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="1"
+            class="slider"
+            id="range"
+          />
+        </div>
+
+        <div class="buttons">
+          <button class="prev">
+            <i class="fa-solid fa-backward fa-2x" style="color: #454545"></i>
+          </button>
+          <button class="play">
+            <i class="fa-solid fa-play fa-xl" style="color: #d5c7bc"></i>
+          </button>
+
+          <button class="next">
+            <i class="fa-solid fa-forward fa-2x" style="color: #454545"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div class="link">
+      <a href="https://x.com/sapyyyhere" target="_blank">@sapyyy</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
