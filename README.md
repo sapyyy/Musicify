@@ -21,7 +21,7 @@ Link : https://musicify-by-sapyyy.netlify.app/
 
 # Bugs (if any)
 
-- when playing a song, if you change the song then you need to click the play button twice to play the new song
+- ~~when playing a song, if you change the song then you need to click the play button twice to play the new song~~ (FIXED ✅)
 
 ## How to Clone This Repository
 
