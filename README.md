@@ -8,7 +8,9 @@ Link : https://musicify-by-sapyyy.netlify.app/
 
 # Previews
 
-![image1](/images/screenshot.png)
+![image1](/images/ss1.png)
+![image2](/images/ss2.png)
+![images3](/images/ss3.png)
 
 ## Features
 
