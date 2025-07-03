@@ -6,6 +6,10 @@
 
 Link : https://musicify-by-sapyyy.netlify.app/
 
+# Previews
+
+![image1](/images/screenshot.png)
+
 ## Features
 
 - Play/Pause music
