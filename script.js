@@ -73,9 +73,6 @@ changeSongMeta();
 
 // play functionality
 const playSong = function () {
-  // first change the song meta
-  changeSongMeta();
-
   // change the slider now, start playing
   playing = true;
   box.play();
@@ -109,10 +106,10 @@ prev.addEventListener("click", (e) => {
   boxSource.src = songLinks[--curPlay].src;
 
   // if the music is already playing, start playing it again
+  changeSongMeta();
   if (playing) {
     playSong();
   }
-  changeSongMeta();
 });
 
 // to shift to the next music
@@ -120,10 +117,10 @@ next.addEventListener("click", (e) => {
   curPlay = curPlay == songLinks.length - 1 ? -1 : curPlay;
   boxSource.src = songLinks[++curPlay].src;
 
+  changeSongMeta();
   if (playing) {
     playSong();
   }
-  changeSongMeta();
 });
 
 // skip a particular region in the song
